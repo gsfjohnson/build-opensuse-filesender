@@ -1,0 +1,28 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">https://github.com/gsfjohnson/filesender.git</param>
+    <param name="scm">git</param>
+    <param name="revision">dev</param>
+    <param name="version">2.0</param>
+    <param name="exclude">.git</param>
+  </service> 
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">bz2</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/filesender/dev/rpm/filesender.spec</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/filesender/dev/rpm/filesender.htaccess</param>
+  </service>
+  <service name="download_url">
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="protocol">https</param>
+    <param name="path">/gsfjohnson/filesender/dev/rpm/filesender.cron.daily</param>
+  </service>
+</services>
