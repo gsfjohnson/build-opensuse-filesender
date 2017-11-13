@@ -1,9 +1,16 @@
 <services>
 
-  <service name="download_url">
-    <param name="host">github.com</param>
-    <param name="protocol">https</param>
-    <param name="path">/filesender/filesender/archive/filesender-2.0-beta2.tar.gz</param>
+  <service name="tar_scm">
+    <param name="url">https://github.com/filesender/filesender.git</param>
+    <param name="scm">git</param>
+    <param name="revision">filesender-2.0-beta2</param>
+    <param name="version">2.0</param>
+    <param name="exclude">.git</param>
+  </service> 
+
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">bz2</param>
   </service>
 
   <service name="download_url">

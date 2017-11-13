@@ -11,8 +11,8 @@ Summary:        Sharing large files with a browser
 Group:          Applications/Internet
 License:        BSD
 URL:            http://www.filesender.org/
-#Source0:        http://repository.filesender.org/releases/%{realname}-%{version}.tar.bz2
-Source0:        https://github.com//filesender/filesender/archive/filesender-2.0-beta2.tar.gz
+Source0:        http://repository.filesender.org/releases/%{realname}-%{version}.tar.bz2
+#Source0:        https://github.com//filesender/filesender/archive/filesender-2.0-beta2.tar.gz
 Source2:        %{realname}.htaccess
 Source3:        %{realname}.cron.daily
 BuildRoot:      %{_tmppath}/%{realname}-%{version}-%{release}-root-%(%{__id_u} -n)
