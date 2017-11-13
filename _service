@@ -16,19 +16,19 @@
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/gsfjohnson/filesender/dev/rpm/filesender.spec</param>
+    <param name="path">/gsfjohnson/build-opensuse-filesender/master/filesender.spec</param>
   </service>
 
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/gsfjohnson/filesender/dev/rpm/filesender.htaccess</param>
+    <param name="path">/filesender/filesender/master/rpm/filesender.htaccess</param>
   </service>
 
   <service name="download_url">
     <param name="host">raw.githubusercontent.com</param>
     <param name="protocol">https</param>
-    <param name="path">/gsfjohnson/filesender/dev/rpm/filesender.cron.daily</param>
+    <param name="path">/filesender/filesender/master/rpm/filesender.cron.daily</param>
   </service>
 
 </services>
